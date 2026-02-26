@@ -9,3 +9,10 @@ st.image (image, caption = 'que felicidad')
 
 texto = st.text_input ('escribe algo, no sé como que ojalá ser ese gato' , 'gatote feliz y coqueton')
 st.write ('el texto escrito es', texto)
+
+with col1:
+  st.subheader ('caracteristicas de un gato feliz y coqueton')
+  st.write (" se ve muy feliz y es bien coqueton")
+  resp = st.checkbox ('tooootal')
+  if resp:
+    st.write ('total')
