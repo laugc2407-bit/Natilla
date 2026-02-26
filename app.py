@@ -7,5 +7,5 @@ st.write ("Facilmente puedo realizar backend y frontend")
 image = Image.open ('gaton.jpg')
 st.image (image, caption = 'que felicidad')
 
-texto = st.text_input ('escribiendo algo, no sé que escribir, ojalá ser ese gato' , 'gatote feliz y coqueton')
-st.write ('el texto escritoes', texto)
+texto = st.text_input ('escribe algo, no sé como que ojalá ser ese gato' , 'gatote feliz y coqueton')
+st.write ('el texto escrito es', texto)
