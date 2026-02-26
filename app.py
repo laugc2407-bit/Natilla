@@ -30,5 +30,11 @@ with col2:
   if modo == 'pollito':
      st.write ('del almuerzo de su dueño')    
   if modo == 'aguita':
-     st.write ('muy simple, considera las otras opciones')       
+     st.write ('muy simple, considera las otras opciones')   
+
+st.subheader ("uso de botones")
+if st.button ('presiona si quieres ser un gato feliz y coqueton'):
+  st.write ('graciasss, sé feliz y coqueton')
+else:
+  st.write ('bueno, no quieres ser feliz y coqueton D:')
           
