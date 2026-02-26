@@ -20,3 +20,15 @@ with col1:
   resp = st.checkbox ('Cierto?')
   if resp:
     st.write ('total')
+
+
+with col2:
+  st.subheader ('cosas que no le gustan a un gato feliz y coqueton')
+ modo = st.radio (" que no le den sus buenas croquetas con:" , ('salsita' , 'pollito' , 'aguita' )
+        if modo == 'salsita':
+           st.write ('preferiblemente de pescadito')       
+        if modo == 'pollito':
+           st.write ('del almuerzo de su dueño')    
+         if modo == 'aguita':
+           st.write ('muy simple, considera las otras opciones')       
+          
