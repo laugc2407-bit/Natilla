@@ -10,6 +10,10 @@ st.image (image, caption = 'que felicidad')
 texto = st.text_input ('escribe algo, no sé como que ojalá ser ese gato' , 'gatote feliz y coqueton')
 st.write ('el texto escrito es', texto)
 
+st.subheader ("Ahora usemos dos columnas")
+col1 , col2 = st.columns (2)
+
+
 with col1:
   st.subheader ('caracteristicas de un gato feliz y coqueton')
   st.write (" se ve muy feliz y es bien coqueton")
