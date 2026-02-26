@@ -17,6 +17,6 @@ col1 , col2 = st.columns (2)
 with col1:
   st.subheader ('caracteristicas de un gato feliz y coqueton')
   st.write (" se ve muy feliz y es bien coqueton")
-  resp = st.checkbox ('tooootal')
+  resp = st.checkbox ('Cierto?')
   if resp:
     st.write ('total')
